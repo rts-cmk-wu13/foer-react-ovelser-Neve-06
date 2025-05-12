@@ -19,3 +19,8 @@ function individualData({name, favoriteToys}){
     console.log(name, favoriteToys);
 }
 individualData(cat)
+
+//Opgave 4
+const [dogA, dogB, ...otherdogs] = dogs
+
+console.log(dogA, dogB, otherdogs);
