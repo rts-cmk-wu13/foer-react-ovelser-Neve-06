@@ -43,3 +43,9 @@ console.log(rabbitBreeds);
 //Opgave 8 
 let checkeredGiantInfo = {...checkeredGiantBasic, ...checkeredGiantTraits}
 console.log(checkeredGiantInfo);
+
+//Opgave 9
+westernMovies.forEach((movie) =>{
+    console.log(movie?.details?.director);
+    
+})
