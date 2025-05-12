@@ -27,6 +27,10 @@ console.log(dogA, dogB, otherdogs);
 
 
 //Opgave 5
-const chosenDog = otherdogs.filter((dog) => dog.startsWith("C"));
+const chosenDog = otherdogs.filter(dog => dog.startsWith("C"));
 
-console.log(`This is ${chosenDog}`);
+console.log(chosenDog);
+
+//Opgave 6
+const {breed, ...otherInformation} = cat
+console.log(breed, otherInformation);
