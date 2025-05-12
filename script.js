@@ -13,3 +13,9 @@ const catBreed = cat.breed;
 const catMail = cat.owner.contact;
 
 console.log(catName, catBreed, catMail);
+
+//Opgave 3
+function individualData({name, favoriteToys}){
+    console.log(name, favoriteToys);
+}
+individualData(cat)
