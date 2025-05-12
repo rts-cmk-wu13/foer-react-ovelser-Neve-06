@@ -24,3 +24,9 @@ individualData(cat)
 const [dogA, dogB, ...otherdogs] = dogs
 
 console.log(dogA, dogB, otherdogs);
+
+
+//Opgave 5
+const chosenDog = otherdogs.filter((dog) => dog.startsWith("C"));
+
+console.log(`This is ${chosenDog}`);
