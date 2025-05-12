@@ -34,3 +34,8 @@ console.log(chosenDog);
 //Opgave 6
 const {breed, ...otherInformation} = cat
 console.log(breed, otherInformation);
+
+//Opgave 7
+
+let rabbitBreeds = [smallRabbitBreeds, largeRabbitBreeds];
+console.log(rabbitBreeds);
