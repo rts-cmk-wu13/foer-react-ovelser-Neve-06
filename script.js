@@ -37,5 +37,9 @@ console.log(breed, otherInformation);
 
 //Opgave 7
 
-let rabbitBreeds = [smallRabbitBreeds, largeRabbitBreeds];
+let rabbitBreeds = [...smallRabbitBreeds, ...largeRabbitBreeds];
 console.log(rabbitBreeds);
+
+//Opgave 8 
+let checkeredGiantInfo = {...checkeredGiantBasic, ...checkeredGiantTraits}
+console.log(checkeredGiantInfo);
